@@ -138,5 +138,4 @@ if __name__ == '__main__':
         else:
             median.append(low_heap.root)
 
-    print(sum(median))
-    print(median)
+    print(divmod(sum(median), 1000))
